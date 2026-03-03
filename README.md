@@ -44,3 +44,30 @@ html-build-tool
 
 - Node.js >= 18.0.0
 - Your project should have HTML files and any referenced CSS/JS files
+
+## Example
+
+Try the included example:
+
+```bash
+# Clone or download this repository
+cd html-build-tool
+
+# Build the example
+npx html-build-tool --input example/templates --output example --verbose
+
+# View the built file
+cat example/index.html
+
+# Or open it in a browser
+open example/index.html  # macOS
+xdg-open example/index.html  # Linux
+start example/index.html  # Windows
+```
+
+The example demonstrates:
+
+- HTML minification
+- CSS and JavaScript inlining with SRI hashes
+- Compression statistics
+- Interactive functionality preserved after build
