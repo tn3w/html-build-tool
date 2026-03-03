@@ -13,7 +13,7 @@ npx html-build-tool
 With options:
 
 ```bash
-npx html-build-tool --input templates --output dist --verbose
+npx html-build-tool --input templates --output public --verbose
 npx html-build-tool --watch  # Watch mode for development
 ```
 

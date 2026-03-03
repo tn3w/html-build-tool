@@ -1,6 +1,6 @@
 {
     "name": "html-build-tool",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "type": "module",
     "description": "Build tool for minifying and inlining HTML templates with SRI",
     "repository": {
