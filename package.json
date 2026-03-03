@@ -3,6 +3,10 @@
     "version": "1.0.0",
     "type": "module",
     "description": "Build tool for minifying and inlining HTML templates with SRI",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tn3w/html-build-tool"
+    },
     "bin": {
         "html-build-tool": "./bin/html-build-tool.js"
     },
